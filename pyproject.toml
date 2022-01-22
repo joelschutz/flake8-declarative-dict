@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "flake8_declarative_dict"
+version = "0.1.0"
+description = ""
+authors = ["joelschutz <joeymarley@gmail.com>"]
+keywords = ['flake8', 'plugin', 'return']
+
+[tool.poetry.plugins."flake8.extension"]
+DCD00 = 'flake8_declarative_dict:Plugin'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flake8 = "^4.0.1"
+flake8-plugin-utils = "^1.3.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.0.1"
+ipdb = "^0.13.9"
+pytest = "^6.2.5"
+astpretty = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
