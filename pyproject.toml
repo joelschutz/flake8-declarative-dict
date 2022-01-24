@@ -9,7 +9,7 @@ keywords = ['flake8', 'plugin', 'return']
 DCD00 = 'flake8_declarative_dict:Plugin'
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 flake8 = "^4.0.1"
 flake8-plugin-utils = "^1.3.2"
 
