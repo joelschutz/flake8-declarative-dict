@@ -10,7 +10,7 @@ DCD00 = 'flake8_declarative_dict:Plugin'
 
 [tool.poetry.dependencies]
 python = "^3.8"
-flake8 = "^3.8.4"
+flake8 = "*"
 flake8-plugin-utils = "^1.3.2"
 
 [tool.poetry.dev-dependencies]
